@@ -1,0 +1,10 @@
+DROP DATABASE IF EXISTS portfolio;
+CREATE DATABASE portfolio;
+USE portfolio;
+
+CREATE TABLE applications (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR (255) NOT NULL,
+  description VARCHAR (500) NOT NULL,
+  img VARCHAR (500) NOT NULL
+);
