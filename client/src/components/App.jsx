@@ -1,4 +1,5 @@
 import React from 'react';
+import Nav from './Nav.jsx';
 
 class App extends React.Component {
   constructor(props) {
@@ -11,6 +12,7 @@ class App extends React.Component {
     return (
       <div className="main">
         Main
+        <Nav/>
       </div>
     )
   }
