@@ -1,0 +1,64 @@
+/* yvesa one and roboto*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Yeseva+One&display=swap');
+
+#app {
+  display: block;
+  color: #31376c;
+  background-color: #faeade;
+}
+
+a { 
+  color: inherit; 
+  text-decoration: none;
+}
+
+li {
+  margin-left: 1.5em;
+}
+
+body {
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  /* background-color: #faeade; */
+}
+.Name {
+  font-family: 'Yeseva One';
+  justify-content: center;
+  margin-left: 1.5em;
+  font-size: 20px;
+}
+.Main {
+  font-family: 'Yeseva One';
+  margin-left: 1em;
+}
+/* Resume Page */
+
+.resume-container {
+  background-color: white;
+  /* display: flex; */
+  transition: opacity .5s ease;
+  margin: 0 auto;
+  max-width: 80%;
+  opacity: 1;
+  /* width: 90em; */
+  flex-grow: 1;
+}
+
+/* Nav */
+.Nav {
+  background-color: #31376c;
+  color: #faeade;
+  /* position: fixed; */
+  width: 100%;
+  height: 60px;
+  align-items: center;
+  /* justify-content: space-evenly; */
+  display: flex;
+}
+.Nav li {
+  list-style: none;
+}
+
+.Paths {
+  display: flex;
+}
