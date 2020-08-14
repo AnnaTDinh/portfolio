@@ -12,8 +12,8 @@ const MainPage = () => {
         {/* <img>insert picture</img> */}
         <div className="about-description-wrapper">
           <div className="about-description">
-            <h3>Hi there! My name is Anna Dinh.</h3>
-            <p>I am a <span>software engineer</span> based in Los Angeles.</p>
+            <h1>Hi there! My name is <span className="important">Anna Dinh</span>.</h1>
+            <p>I am a software engineerbased in Los Angeles.</p>
             <p>Before I became a software engineer, I was applying for my masters for Occupational Therapy. 
               It was a great experience that allowed me to make an impact on the lives of others but 
               down the line, I realized it was not for me.</p>
