@@ -5,7 +5,7 @@
   display: block;
   color: #302525;
   height: auto;
-  background-color: #fcfcfc;
+  /* background-color: #fcfcfc; */
   font-family: 'Poppins', sans-serif;
   font-weight: 300;
   font-size: 15px;
@@ -15,7 +15,6 @@
   padding-right: 40px;
   /* text-size-adjust: 100%; */
 }
-
 
 li {
   margin-left: 1.5em;
@@ -69,7 +68,7 @@ hr {
   text-decoration: none;
   display: inline-block;
 }
-a:hover {
+.Nav a:hover {
   color: rgb(190, 66, 66);
 }
 h3 {
@@ -139,4 +138,72 @@ img {
 }
 .technical-description, .container {
   margin-top: -20px;
+}
+
+.contact-hr {
+  width: 50px;
+  height: 5px;
+  background-color: rgb(190, 66, 66);
+}
+.contact-container {
+  height: 100%;
+  padding: 100px;
+  text-align: center;
+  background-color: #fff;
+}
+.contact-container h1{
+  color: rgb(190, 66, 66);
+  font-size: 5rem;
+  font-weight: 300;
+  margin: 0;
+}
+
+.contact-container p {
+  margin-bottom: 0;
+}
+
+.contact-container-border {
+  margin: auto;
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid rgb(190, 66, 66);
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.contact-link-title {
+  color: rgb(190, 66, 66);
+  font-size: 1.5rem;
+}
+
+.contact-link-text {
+  margin-top: 8px;
+  font-size: 1.2rem;
+}
+
+.contact-link {
+  margin: 34px 36px 20px;
+}
+.contact-link svg {
+  margin-top: 15px;
+  fill: #fff;
+  stroke: rgb(190, 66, 66);
+}
+.contact-link svg:hover {
+  fill: rgb(190, 66, 66);
+  stroke: #fff;
+  transition: .5s;
+}
+.important {
+  color: rgb(190, 66, 66);
 }
