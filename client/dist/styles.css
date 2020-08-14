@@ -1,32 +1,29 @@
 /* yvesa one and roboto*/
-@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,500;1,100&display=swap');
 
 #app {
   display: block;
-  color: #31376c;
-  background-color: #faeade;
+  color: #302525;
+  height: auto;
+  background-color: #fcfcfc;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  max-width: 1133px;
+  margin: 10px auto;
+  padding-left: 40px;
+  padding-right: 40px;
+  /* text-size-adjust: 100%; */
 }
 
-a { 
-  color: inherit; 
-  text-decoration: none;
-}
 
 li {
   margin-left: 1.5em;
 }
+.applications-container ul {
+  margin-top: -10px;
+}
 
-body {
-  font-size: 16px;
-  font-family: 'Roboto', sans-serif;
-  /* background-color: #faeade; */
-}
-.Name {
-  font-family: 'Yeseva One';
-  justify-content: center;
-  margin-left: 1.5em;
-  font-size: 20px;
-}
 .Main {
   font-family: 'Yeseva One';
   margin-left: 1em;
@@ -34,7 +31,6 @@ body {
 /* Resume Page */
 
 .resume-container {
-  background-color: white;
   /* display: flex; */
   transition: opacity .5s ease;
   margin: 0 auto;
@@ -45,20 +41,102 @@ body {
 }
 
 /* Nav */
+.Nav-container {
+  padding-bottom: 20px;
+}
 .Nav {
-  background-color: #31376c;
-  color: #faeade;
-  /* position: fixed; */
   width: 100%;
-  height: 60px;
+  height: 40px;
   align-items: center;
-  /* justify-content: space-evenly; */
   display: flex;
 }
-.Nav li {
+.Name {
+  flex: 1;
+}
+.Paths {
+  flex: 2;
+  padding-right: 10px;
+}
+hr {
+  border: none;
+  color: #bbb;
+  background-color: #bbb;
+  height: 1px;
+}
+.Nav li, a {
   list-style: none;
+  color: inherit;
+  text-decoration: none;
+  display: inline-block;
+}
+a:hover {
+  color: rgb(190, 66, 66);
+}
+h3 {
+  margin-bottom: -5px;
 }
 
-.Paths {
+
+/* About/Main page */
+.about-container {
   display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: auto;
+}
+
+.about-image-container {
+  width: 50%;
+  padding-left: 17px;
+  padding-right: 17px;
+}
+
+.about-description-wrapper {
+  max-width: 100%;
+  margin: 5%;
+  width: 50%;
+}
+.about-description {
+  /* padding-left: 5%;
+  padding-right: 5%; */
+}
+
+
+img {
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  /* width: auto; */
+}
+
+#Portfolio {
+  max-width: 1133px;
+  margin: 10px auto;
+  /* padding: 75px; */
+}
+.title {
+  font-size: 20px;
+  color: rgb(190, 66, 66);
+}
+
+.main-resume {
+  border: 1px solid #bbb;
+  padding: 10px;
+}
+.resume-title {
+  text-align: center;
+}
+
+.Resume-page {
+  padding-bottom: 20px;
+}
+
+.container {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  max-height: 30px;
+}
+.technical-description, .container {
+  margin-top: -20px;
 }

@@ -6,25 +6,26 @@ import Nav from '../Nav.jsx';
 
 const Resume = () => {
   return (
-    <div>
+    <div className="Resume-page">
       <Nav/>
       <div className="resume-container">
-        <article>
-          <header>
-          <div className="title">
-            <h2>Resume</h2>
+        {/* <header>
+          <div className="resume-title title">
+            <h1>Resume</h1>
           </div>
-          </header>
-          <div className="technicalSkills">
+        </header> */}
+        <article className="main-resume">
+          <div className="technical-skills">
             <div className="title">
               <h3>Technical Skills</h3>
+              <hr/>
             </div>
             <article className="technical-skills-container">
               <header>
                 <h4 className="languages">
                   Languages
                 </h4>
-                <p>
+                <p className="technical-description">
                   HTML, CSS, JavaScript
                 </p>
               </header>
@@ -34,21 +35,23 @@ const Resume = () => {
                 <h4 className="Technologies/Frameworks">
                   Technologies/Frameworks
                 </h4>
-                <p>
+                <p className="technical-description">
                   Node.js, Express, Slack, Bootstrap, React, MySQL, PostgreSQL, MongoDB, Git, Postman, Mongoose, Axios, Expo, Firebase, React Native, Trello, Loader.io, K6, Artillery.io, NGINX, AWS
                 </p>
               </header>
             </article>
           </div>
-        </article>
-        <div className="applications">
+          <div className="applications">
           <div className="title">
             <h3>Applications</h3>
+            <hr/>
           </div>
           <article class="applications-container">
             <header>
-              <h4>Blue Checks</h4>
+            <div className="container">
+              <p><strong>Blue Checks</strong></p>
               <p>React Native | Axios | Expo | Node.js | Firebase Realtime Database </p>
+              </div>
               <p>
                 Mobile application for users to connect to one another and review police officers
               </p>
@@ -61,8 +64,10 @@ const Resume = () => {
           </article>
           <article class="applications-container">
             <header>
-              <h4>Fenty Beauty Nav-Bar</h4>
+            <div className="container">
+              <p><strong>Fenty Beauty Nav-Bar</strong></p>
               <p>PostgresSQL | AWS | Ubuntu | Artillery | Loader.io | NGINX | React</p>
+              </div>
               <p>
                 Web-scale system design of an existing product's navbar search feature
               </p>
@@ -75,8 +80,10 @@ const Resume = () => {
           </article>
           <article class="applications-container">
             <header>
-              <h4>Product Display Page Clone</h4>
+            <div className="container">
+              <p><strong>Product Display Page Clone</strong></p>
               <p>React | Express | Mysql | Axios | Node | Git | Webpack</p>
+              </div>
               <p>
                 Replica of Lululemon's main product display page and add to cart feature
               </p>
@@ -91,47 +98,61 @@ const Resume = () => {
         <div>
           <div className="title">
             <h3>Education</h3>
+            <hr/>
           </div>
           <article className="education-container">
             <header>
-              <h4 className="education">Full Stack Engineering Immersive</h4>
-              <p className="school">Hack Reactor, 2020</p>
+              <div className="container">
+              <h4 className="education">Full Stack Engineering Immersive</h4><p>2020</p>
+              </div>
+              <p className="school">Hack Reactor, Galvanize</p>
+              
             </header>
           </article>
           <article className="education-container">
             <header>
-              <h4 className="education">B.A. in Psychology and Social Behavior</h4>
-              <p className="school">University of California, Irvine, 2016 - 2018</p>
+            <div className="container">
+              <h4 className="education">B.A. in Psychology and Social Behavior</h4><p>2016 - 2018</p>
+              </div>
+              <p className="school">University of California, Irvine </p>
+              
             </header>
           </article>
         </div>
         <div>
           <div className="title">
             <h3>Volunteer</h3>
+            <hr/>
           </div>
           <article className="volunteer-container">
             <header>
+            <div className="container">
               <h4 className="volunteer">West Covina Healthcare Center</h4>
               <p className="volunteer-year">November 2018 - August 2019</p>
+              </div>
               <ul>
                 <li>
-                Implemented strengthening exercises and occupation-based interventions to patients under the supervision of an Occupational or Physical Therapist
+                Implemented strengthening exercises and occupation-based interventions to patients                
                 </li>
               </ul>
             </header>
           </article>
           <article className="volunteer-container">
             <header>
+              <div className="container">
               <h4 className="volunteer">Karate For All</h4>
               <p className="volunteer-year">February 2018 - June 2018</p>
+              </div>
+              
               <ul>
                 <li>
-                Incorporated OT and martial arts build confidence, social skills, gross motor skills, strength, and motor planning skills in children with special needs
+                Incorporated OT and martial arts to build confidence, social skills, and fine motor skills
                 </li>
               </ul>
             </header>
           </article>
         </div>
+        </article>
     </div>
     </div>
   )
