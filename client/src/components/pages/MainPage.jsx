@@ -11,8 +11,17 @@ const MainPage = () => {
         </div>
         {/* <img>insert picture</img> */}
         <div className="about-description-wrapper">
-          <h1>Hi,</h1>
-          <p>My name is Anna and I am a <span>full-stack software engineer</span> based in Los Angeles, California. I am passionate about creating meaningful impacts with my code. On my free time, I like to spend my time playing games, taking care of my plants, watching shows, and hanging out with friends.</p>
+          <div className="about-description">
+            <h3>Hi there! My name is Anna Dinh.</h3>
+            <p>I am a <span>software engineer</span> based in Los Angeles.</p>
+            <p>Before I became a software engineer, I was applying for my masters for Occupational Therapy. 
+              It was a great experience that allowed me to make an impact on the lives of others but 
+              down the line, I realized it was not for me.</p>
+            <p>I set out on a journey to find a path to a career that I would be passionate about, a career that would let me continue 
+              making an impact on the lives of others while allowing me to have a creative outlet. When I first started learning Javascript, it was that feeling of excitement I got when I had 
+              solved a hard Javascript prompt when I realized that software engineering was for me.</p>
+            <p>On my free time, I like to spend my time playing games, taking care of my plants, watching shows, and hanging out with friends.</p>
+          </div>
         </div>
         </div>
     </div>
