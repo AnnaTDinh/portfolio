@@ -1,13 +1,16 @@
-import React from 'react';
+import React from "react";
+import Nav from "../Nav.jsx";
 
 const PageNotFound = () => {
   return (
     <div>
-      <h3>Error: 404</h3>
-      <p>Page not found</p>
+      <Nav />
+      <div className="error">
+        <h3>Error: 404</h3>
+        <p>Sorry, page not found</p>
+      </div>
     </div>
-    // add link to go home
-  )
-}
+  );
+};
 
 export default PageNotFound;
