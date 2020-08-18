@@ -9,11 +9,6 @@ const Resume = () => {
     <div className="Resume-page">
       <Nav/>
       <div className="resume-container">
-        {/* <header>
-          <div className="resume-title title">
-            <h1>Resume</h1>
-          </div>
-        </header> */}
         <article className="main-resume">
           <div className="technical-skills">
             <div className="title">
@@ -83,7 +78,7 @@ const Resume = () => {
             <div className="container">
               <p><strong>Product Display Page Clone</strong></p>
               <p>React | Express | Mysql | Axios | Node | Git | Webpack</p>
-              </div>
+            </div>
               <p>
                 Replica of Lululemon's main product display page and add to cart feature
               </p>
@@ -95,14 +90,14 @@ const Resume = () => {
             </header>
           </article>
         </div>
-        <div>
+        <div className="Education">
           <div className="title">
             <h3>Education</h3>
             <hr/>
           </div>
           <article className="education-container">
             <header>
-              <div className="container">
+              <div className="small-container">
               <h4 className="education">Full Stack Engineering Immersive</h4><p>2020</p>
               </div>
               <p className="school">Hack Reactor, Galvanize</p>
@@ -111,7 +106,7 @@ const Resume = () => {
           </article>
           <article className="education-container">
             <header>
-            <div className="container">
+            <div className="small-container">
               <h4 className="education">B.A. in Psychology and Social Behavior</h4><p>2016 - 2018</p>
               </div>
               <p className="school">University of California, Irvine </p>
@@ -119,16 +114,16 @@ const Resume = () => {
             </header>
           </article>
         </div>
-        <div>
+        <div className="Volunteer">
           <div className="title">
             <h3>Volunteer</h3>
             <hr/>
           </div>
           <article className="volunteer-container">
             <header>
-            <div className="container">
+            <div className="small-container">
               <h4 className="volunteer">West Covina Healthcare Center</h4>
-              <p className="volunteer-year">November 2018 - August 2019</p>
+              <p className="volunteer-year">Nov 2018 - Aug 2019</p>
               </div>
               <ul>
                 <li>
@@ -139,9 +134,9 @@ const Resume = () => {
           </article>
           <article className="volunteer-container">
             <header>
-              <div className="container">
+              <div className="small-container">
               <h4 className="volunteer">Karate For All</h4>
-              <p className="volunteer-year">February 2018 - June 2018</p>
+              <p className="volunteer-year">Feb 2018 - Jun 2018</p>
               </div>
               
               <ul>
