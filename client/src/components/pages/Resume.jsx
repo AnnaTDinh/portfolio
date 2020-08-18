@@ -31,7 +31,7 @@ const Resume = () => {
                   Technologies/Frameworks
                 </h4>
                 <p className="technical-description">
-                  Node.js, Express, Slack, Bootstrap, React, MySQL, PostgreSQL, MongoDB, Git, Postman, Mongoose, Axios, Expo, Firebase, React Native, Trello, Loader.io, K6, Artillery.io, NGINX, AWS
+                  Node.js, Express, Slack, Bootstrap, React, MySQL, PostgreSQL, MongoDB, Git, Postman, Mongoose, Axios, Expo, Firebase, React Native, Trello, Loader.io, K6, Artillery.io, Nginx, AWS
                 </p>
               </header>
             </article>
