@@ -9,11 +9,10 @@ const MainPage = () => {
         <div className="about-image-container">
           <img src="https://anna-portfolio.s3.us-east-2.amazonaws.com/FCF339C7-2DFE-4609-9234-4C645CDF5110_1_105_c.jpeg" alt="Anna" ></img>
         </div>
-        {/* <img>insert picture</img> */}
         <div className="about-description-wrapper">
           <div className="about-description">
             <h1>Hi there! My name is <span className="important">Anna Dinh</span>.</h1>
-            <p>I am a software engineerbased in Los Angeles.</p>
+            <p>I am a software engineer based in Los Angeles.</p>
             <p>Before I became a software engineer, I was applying for my masters for Occupational Therapy. 
               It was a great experience that allowed me to make an impact on the lives of others but 
               down the line, I realized it was not for me.</p>
@@ -25,7 +24,6 @@ const MainPage = () => {
         </div>
         </div>
     </div>
-    // maybe have technical skills here
   )
 }
 
