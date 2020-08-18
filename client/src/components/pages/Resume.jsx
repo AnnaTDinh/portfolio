@@ -77,7 +77,7 @@ const Resume = () => {
             <header>
             <div className="container">
               <p><strong>Product Display Page Clone</strong></p>
-              <p>React | Express | Mysql | Axios | Node | Git | Webpack</p>
+              <p>React | Express | Mysql | Axios | Node.js | Git | Webpack</p>
             </div>
               <p>
                 Replica of Lululemon's main product display page and add to cart feature
