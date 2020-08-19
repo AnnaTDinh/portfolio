@@ -1,30 +1,61 @@
-import React from 'react';
-import Nav from '../Nav.jsx';
+import React, { useEffect } from "react";
+import Nav from "../Nav.jsx";
+import gsap from "gsap";
+import IntroOverlay from "../IntroOverlay.jsx";
+
+
 
 const MainPage = () => {
+  // const tl = gsap.timeline();
+  useEffect(() => {
+    // prevents flashing
+    gsap.to("body", 0, { css: { visibility: "visible"}});
+
+    const tl = gsap.timeline({
+      delay: 0.5
+    });
+
+    tl
+    .to('.overlay-top', 1.5, {height: 0, ease: 'expo.inOut', stagger: 0.4})
+    .fromTo('.banner-quote .line' , 1, {opacity: 0, y: 250}, {opacity: 1, y: 0})
+    .fromTo('.banner-quote .line-2' , 1, {opacity: 0, y: 250}, {opacity: 1, y: 0})
+    .fromTo('.banner-name', 1, {opacity: 0, x: -100}, {opacity: 1, x: 0})
+    .fromTo('.banner-developer', 1, {opacity: 0, x: -100}, {opacity: 1, x: 0})
+    .fromTo('.Nav-container', 1, {opacity: 0, y: -100}, {opacity: 1, y: 0});
+
+  }, []);
+
   return (
-    <div>
-      <Nav/>
-      <div className="about-container">
-        <div className="about-image-container">
-          <img src="https://anna-portfolio.s3.us-east-2.amazonaws.com/FCF339C7-2DFE-4609-9234-4C645CDF5110_1_105_c.jpeg" alt="Anna" ></img>
-        </div>
-        <div className="about-description-wrapper">
-          <div className="about-description">
-            <h1>Hi there! My name is <span className="important">Anna Dinh</span>.</h1>
-            <p>I am a software engineer based in Los Angeles.</p>
-            <p>Before I became a software engineer, I was applying for my masters for Occupational Therapy. 
-              It was a great experience that allowed me to make an impact on the lives of others but 
-              down the line, I realized it was not for me.</p>
-            <p>I set out on a journey to find a path to a career that I would be passionate about, a career that would let me continue 
-              making an impact on the lives of others while allowing me to have a creative outlet. When I first started learning Javascript, it was that feeling of excitement I got when I had 
-              solved a hard Javascript prompt when I realized that software engineering was for me.</p>
-            <p>On my free time, I like to spend my time playing games, taking care of my plants, watching shows, and hanging out with friends.</p>
+    <div className="Mainpage">
+      <IntroOverlay/>
+      <Nav />
+      <div className="main-page-content">
+        <section>
+        <div className="banner-text">
+          <div className="banner-intro">
+            <div className="line banner-name">
+              Hi, I'm <span>Anna Dinh</span>
+            </div>
+          </div>
+          <div className="banner-quote">
+            <h1>
+              <div className="line">
+                I strive <span>to create </span>
+              </div>
+              <div className="line-2">meaningful applications</div>
+            </h1>
+          </div>
+          <div className="banner-developer">
+            <div className="line">
+              Full Stack <span>Web Developer</span>
+            </div>
           </div>
         </div>
-        </div>
+        </section>
+
+      </div>
     </div>
-  )
-}
+  );
+};
 
 export default MainPage;
