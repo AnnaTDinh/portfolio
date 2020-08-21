@@ -40,14 +40,14 @@ const MainPage = () => {
           <div className="banner-quote">
             <h1>
               <div className="line">
-                I strive <span>to create </span>
+                I <span>create </span>
               </div>
               <div className="line-2">meaningful applications</div>
             </h1>
           </div>
           <div className="banner-developer">
             <div className="line">
-              Full Stack <span>Web Developer</span>
+              <span>Software Engineer</span>
             </div>
           </div>
         </div>
