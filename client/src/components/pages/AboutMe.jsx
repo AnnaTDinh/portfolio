@@ -13,12 +13,14 @@ const MainPage = () => {
           <div className="about-description">
             <h1>Hi there! My name is <span className="important">Anna Dinh</span>.</h1>
             <p>I am a software engineer based in Los Angeles.</p>
-            <p>Before I became a software engineer, I was applying for my masters for Occupational Therapy. 
-              It was a great experience that allowed me to make an impact on the lives of others but 
-              down the line, I realized it was not for me.</p>
-            <p>I set out on a journey to find a path to a career that I would be passionate about, a career that would let me continue 
+            <p>I am passionate about designing meaningful applications that make an impact to others. 
+              I was always fascinated to understand how structures are made. I vividly 
+              remember spending time arranging K'NEX pieces to design structures and as 
+              I grew older, I have applied my problem-solving skills into building, taking 
+              apart, and fixing machines. </p>
+            {/* <p>I set out on a journey to find a path to a career that I would be passionate about, a career that would let me continue 
               making an impact on the lives of others while allowing me to have a creative outlet. 
-              When I first started learning how to code, I realized that software engineering was for me.</p>
+              When I first started learning how to code, I realized that software engineering was for me.</p> */}
             <p>On my free time, I like to spend my time playing games, taking care of my plants, watching shows, and hanging out with friends.</p>
           </div>
         </div>
