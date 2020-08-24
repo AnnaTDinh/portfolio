@@ -18,9 +18,6 @@ const MainPage = () => {
               remember spending time arranging K'NEX pieces to design structures and as 
               I grew older, I have applied my problem-solving skills into building, taking 
               apart, and fixing machines. </p>
-            {/* <p>I set out on a journey to find a path to a career that I would be passionate about, a career that would let me continue 
-              making an impact on the lives of others while allowing me to have a creative outlet. 
-              When I first started learning how to code, I realized that software engineering was for me.</p> */}
             <p>On my free time, I like to spend my time playing games, taking care of my plants, watching shows, and hanging out with friends.</p>
           </div>
         </div>
