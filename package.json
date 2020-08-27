@@ -4,7 +4,8 @@
   "description": "Portfolio made with mySQL, Express, React, and Node.js",
   "main": "index.js",
   "scripts": {
-    "build": "webpack-dev-server --mode=development"
+    "build": "webpack-dev-server --mode=development",
+    "build:prod": "webpack --entry ./client/src/index.jsx --output ./client/dist/bundle.js -p"
   },
   "babel": {
     "presets": [
