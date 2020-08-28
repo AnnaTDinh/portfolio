@@ -331,9 +331,7 @@ img {
   padding: 3%;
   justify-content: space-around;
 }
-.Project-image-container {
-  width: 50%;
-}
+
 .Project-text-container {
   width: 40%;
   justify-content: center;
@@ -385,9 +383,13 @@ img {
   flex-direction: row;
   
 }
-.Project-image-screenshots-container {
+.Project-image-screenshots-container img {
   width: 50%;
 }
+.Project-image-container {
+  width: 50%;
+}
+
 /* media queries */
 @media screen and (max-width: 1024px) {
   .about-image-container img{
