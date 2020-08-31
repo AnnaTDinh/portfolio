@@ -499,6 +499,18 @@ img {
   .main-page-content {
     height: 60%;
   }
+  .Project-title {
+    font-size: 1.5rem;
+  }
+  .main-title {
+    font-size: 3rem;
+  }
+  .tech-title {
+    font-size: 1rem;
+  }
+  .tech-icon-title {
+    font-size: 13px;
+  }
 }
 
 @media screen and (max-width: 480px) {
