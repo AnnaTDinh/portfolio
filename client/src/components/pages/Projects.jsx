@@ -10,9 +10,11 @@ const Projects = () => {
     const tl = gsap.timeline({
       delay: 0.5
     });
-    tl.fromTo('.Project', {opacity: 0, y: 200}, {opacity: 1, y: 0})
-    .fromTo('.Project-title-right', {opacity: 0, x: 200}, {opacity: 1, x: 0})
-    .fromTo('.Project-title-left', {opacity: 0, x: -200}, {opacity: 1, x: 0});
+    tl.fromTo('.Project-container .Main-project-title', {opacity: 0, y: 200}, {opacity: 1, y: 0})
+    .fromTo('.Project-container hr', {opacity: 0, x: 200}, {opacity: 1, x: 0})
+    .fromTo('.Project', {opacity: 0, y: 200}, {opacity: 1, y: 0})
+    // .fromTo('.Project-title-right', {opacity: 0, x: 200}, {opacity: 1, x: 0})
+    // .fromTo('.Project-title-left', {opacity: 0, x: -200}, {opacity: 1, x: 0});
   }, []);
 
   return (
