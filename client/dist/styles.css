@@ -134,6 +134,7 @@ hr {
 .about-image-container {
   display: flex;
   width: 50%;
+  height: auto;
   /* align-items: center; */
   justify-content: center;
 }
@@ -466,6 +467,7 @@ img {
   }
   .Project-image-container {
     width: 100%;
+    height: auto;
   }
   .Project-text-container {
    width: 80%;
@@ -496,7 +498,7 @@ img {
     font-size: 1.5rem;
   }
   .main-page-content {
-    height: 70%;
+    height: 60%;
   }
 }
 
