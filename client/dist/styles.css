@@ -134,7 +134,6 @@ hr {
 .about-image-container {
   display: flex;
   width: 50%;
-  height: auto;
   /* align-items: center; */
   justify-content: center;
 }
@@ -399,7 +398,7 @@ img {
   }
   .Project-image-screenshots-container img{
     width: 50%;
-    height: auto;
+    height: 50%;
   }
 }
 
